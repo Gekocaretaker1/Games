@@ -3,7 +3,7 @@
 */
 Let's make a game!
 	name:Governing Power
-	author:Gekocaretaker
+	by:Gekocaretaker
 	desc:A idle game based upon governments.
 	created:02/06/2021
 	version:1.0.0
