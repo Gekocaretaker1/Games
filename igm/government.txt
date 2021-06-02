@@ -71,6 +71,6 @@ Shinies
 	*tvInterview
 		name:TV Interview
 		on click:yield (random(support/10, support)) support
-		move:anywhere growShrink
+		movement:anywhere growShrink
 		frequency:60
 		frequency variation:120
