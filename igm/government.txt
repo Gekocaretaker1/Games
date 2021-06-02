@@ -70,7 +70,7 @@ Achievements
 Shinies
 	*tvInterview
 		name:TV Interview
-		on click:yield (random(support/10, support)) support
+		on click:yield (random(idependent/10, independent)) independent
 		movement:anywhere growShrink
 		frequency:60
 		frequency variation:120
