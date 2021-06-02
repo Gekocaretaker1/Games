@@ -23,42 +23,44 @@ Layout
 	use default
 
 Buttons
-  *button1
-    name:Find Independent Voters
-    desc:Look for targets for your politicial party.
-    on click:yield 1 independent
-  *button2
-    name:Convert to Republican
-    desc:Convince a independent voter to become a republican.
-    req:1 independent
-    on click:
-      yield 1 republican
-      lose 1 independent
-    end
-  *button3
-    name:Convert to Democratic
-    desc:Convince a independent voter to become a democratic.
-    req:1 independent
-    on click:
-      yield 1 democratic
-      lose 1 independent
-    end
+	*button1
+		name:Find Independent Voters
+		desc:Look for targets for your politicial party.
+		on click:yield 1 independent
+	*button2
+		name:Convert to Republican
+		desc:Convince a independent voter to become a republican.
+		req:1 independent
+		on click:
+			yield 1 republican
+			lose 1 independent
+		end
+	*button3
+		name:Convert to Democratic
+		desc:Convince a independent voter to become a democratic.
+		req:1 independent
+		on click:
+			yield 1 democratic
+			lose 1 independent
+		end
 
 Resources
 	*independent
 		name:Independent Voter
 		desc:The perfect audience for you to get support.
 	*republican
-    name:Republican Voter
-    desc:Their symbol is the elephant. Their color is red.
-  *democratic
-    name:Democratic Voter
-    desc:Their symbol is the donkey. Their color is blue.
+		name:Republican Voter
+		desc:Their symbol is the elephant. Their color is red.
+	*democratic
+		name:Democratic Voter
+		desc:Their symbol is the donkey. Their color is blue.
 
 Buildings
 
 
 Upgrades
+	*TEMPLATE
+		on earn:hide this
 
 
 //Items
@@ -70,7 +72,7 @@ Achievements
 Shinies
 	*tvInterview
 		name:TV Interview
-		on click:yield (random(idependent/10, independent)) independent
+		on click:yield independent:ps
 		movement:anywhere growShrink
 		frequency:60
 		frequency variation:120
