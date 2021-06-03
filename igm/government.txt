@@ -31,16 +31,18 @@ Buttons
 		desc:Convince a independent voter to become a republican.
 		req:1 independent
 		on click:
-			yield 1 republican
-			lose 1 independent
+			if (idependent is 1)
+				yield 1 republican
+				lose 1 independent
 		end
 	*button3
 		name:Convert to Democratic
 		desc:Convince a independent voter to become a democratic.
 		req:1 independent
 		on click:
-			yield 1 democratic
-			lose 1 independent
+			if (independent is 1) 
+				yield 1 democratic
+				lose 1 independent
 		end
 
 Resources
