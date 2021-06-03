@@ -12,8 +12,7 @@ Settings
 	building cost increase:115%
 	building cost refund:50%
 	no bulk particles
-
-//CSS
+	stylesheet:https://orteil.dashnet.org/igm/stuff/basic.css
 
 
 //Includes
