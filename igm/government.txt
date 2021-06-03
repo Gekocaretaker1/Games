@@ -72,7 +72,7 @@ Achievements
 Shinies
 	*tvInterview
 		name:TV Interview
-		on click:yield (independent:ps)
+		on click:yield (independent:ps) independent
 		movement:anywhere growShrink
 		frequency:60
 		frequency variation:120
