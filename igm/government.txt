@@ -110,7 +110,7 @@ Buttons
 		name:Convert to Republican
 		desc:Convince a independent voter to become a republican.
 		on click:
-			if (independent:earned >= 1)
+			if (independent >= 1)
 				yield 1 republican
 				lose 1 independent
 			end
@@ -129,7 +129,7 @@ Buttons
 		desc:Convince a independent voter to become a democratic.
 		req:have democraticParty
 		on click:
-			if (independent:earned >= 1)
+			if (independent >= 1)
 				yield 1 democratic
 				lose 1 independent
 			end
